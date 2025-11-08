@@ -2,7 +2,7 @@
 
 A professional, single-page enterprise dashboard for business users to monitor and manage UiPath Maestro loan processing workflows in real-time.
 
-[cloudflarebutton]
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/Raina451/uipath-loan-operations-hub)
 
 ## Overview
 
@@ -131,7 +131,7 @@ src/
 
 ### Cloudflare Pages
 
-[cloudflarebutton]
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/Raina451/uipath-loan-operations-hub)
 
 The project is optimized for deployment on Cloudflare Pages:
 
