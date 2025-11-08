@@ -1,5 +1,5 @@
 {
-  "name": "uipath-loan-operatio-dmtiq1l48uabudmyfevqs",
+  "name": "uipath-dashboard",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,12 +7,9 @@
     "dev": "vite --host 0.0.0.0 --port ${PORT:-3000}",
     "build": "vite build",
     "lint": "eslint --cache -f json --quiet .",
-    "preview": "bun run build && vite preview --host 0.0.0.0 --port ${PORT:-4173}",
-    "prepare": "bun .bootstrap.js || true"
+    "preview": "bun run build && vite preview --host 0.0.0.0 --port ${PORT:-4173}"
   },
   "dependencies": {
-    "@uipath/uipath-typescript": "latest",
-    "bpmn-js": "^17.11.1",
     "@dnd-kit/core": "^6.3.1",
     "@dnd-kit/sortable": "^10.0.0",
     "@headlessui/react": "^2.2.4",
@@ -47,6 +44,8 @@
     "@tanstack/react-query": "^5.83.0",
     "@typescript-eslint/eslint-plugin": "^8.38.0",
     "@typescript-eslint/parser": "^8.38.0",
+    "@uipath/uipath-typescript": "latest",
+    "bpmn-js": "^17.11.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "cmdk": "^1.1.1",
@@ -55,6 +54,7 @@
     "eslint-import-resolver-typescript": "^4.4.4",
     "eslint-plugin-import": "^2.32.0",
     "framer-motion": "^12.23.0",
+    "hono": "^4.10.4",
     "immer": "^10.1.1",
     "input-otp": "^1.4.2",
     "lucide-react": "^0.525.0",
