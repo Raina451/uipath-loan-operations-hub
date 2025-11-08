@@ -9,7 +9,7 @@ export function LoanDashboard() {
       <div className="py-8 md:py-10 lg:py-12 space-y-8">
         {/* Header Section */}
         <header className="space-y-4">
-          <div className="flex items-center gap-3">
+          <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3">
             <div className="h-10 w-10 rounded-lg bg-gradient-to-br from-blue-600 to-blue-700 flex items-center justify-center shadow-lg">
               <Activity className="h-6 w-6 text-white" />
             </div>
@@ -17,7 +17,7 @@ export function LoanDashboard() {
               <h1 className="text-3xl font-bold text-foreground">
                 UiPath Loan Operations Hub
               </h1>
-              <p className="text-muted-foreground text-lg">
+              <p className="text-muted-foreground text-base sm:text-lg">
                 Monitor and manage loan processing workflows in real-time
               </p>
             </div>

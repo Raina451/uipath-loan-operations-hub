@@ -114,7 +114,7 @@ export function LoanInstancesTable() {
           </CardDescription>
         </CardHeader>
         <CardContent>
-          <div className="rounded-md border">
+          <div className="rounded-md border overflow-x-auto">
             <Table>
               <TableHeader>
                 <TableRow>
@@ -141,7 +141,8 @@ export function LoanInstancesTable() {
                   return (
                     <TableRow key={instanceId} className="hover:bg-muted/50">
                       <TableCell className="font-mono text-sm">
-                        {instanceId.length > 20 ? `${instanceId.slice(0, 20)}...` : instanceId}
+                        <span className="block sm:hidden">{instanceId.slice(-8)}</span>
+                        <span className="hidden sm:block">{instanceId.length > 20 ? `${instanceId.slice(0, 20)}...` : instanceId}</span>
                       </TableCell>
                       <TableCell className="font-medium">{applicantName}</TableCell>
                       <TableCell className="font-semibold text-green-700">{loanAmount}</TableCell>
